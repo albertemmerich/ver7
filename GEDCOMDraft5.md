@@ -746,7 +746,7 @@ The following structures are permitted as a substructure of any structure with t
 | `PHRASE`     | `<Age>`, `<DateValue>`, `<Enum>`, `@<XREF:INDI>@`, `@<XREF:PLACE>@` |
 | `TIME`       | `<DateExact>` , `<DateValue>` |
 
-Additionally, the `CONT` psuedo-structure is allowed as a way of encoding line breaks in any payload that contains them.
+Additionally, the `CONT` pseudo-structure is allowed as a way of encoding line breaks in any payload that contains them.
 
 These usually listed explicitly in the [Structure Organization](#structure-organization) section. If they are missing, this is an oversight in the spec: they are always permitted under these datatypes, even if the speci neglected to note that in some context.
 
